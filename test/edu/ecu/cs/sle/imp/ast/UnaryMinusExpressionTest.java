@@ -20,7 +20,7 @@ public class UnaryMinusExpressionTest {
 	@Test
 	public void testUnaryMinusExpression() {
 		
-		assertEquals("5*-1", -5, uMin.interpret().getIntValue().intValue());
+		assertEquals("5", -5, uMin.interpret().getIntValue().intValue());
 
 	}
 
